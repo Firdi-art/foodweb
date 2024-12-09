@@ -1,0 +1,367 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.background{
+    position:fixed;
+    height:100%;
+    width:100%;
+    background:url('fffff.jpg');
+    filter:blur(60px);
+    background-position:center;
+    background-size:cover;
+    z-index:-1;
+}
+.main{
+    height:286vh;
+    width:100vh;
+   z-index:1;
+}
+ul{
+    text-align:right;
+    position:absolute;
+    top:3%;
+    right:5%;
+}
+ul li{
+    display:inline-flex;
+    padding:0px 40px;
+    font-size:14px;
+    color:black
+}
+.line{
+    width:43px;
+    height:2px;
+    background-color:rgb(225, 31, 31);
+    position:absolute;
+    top:6%;
+    left:68.2%;
+}
+.logo{
+    position:absolute;
+    top:3%;
+    left:5%;
+    color:rgb(247, 129, 129);
+}
+.logo span{
+    color:rgb(225, 31, 31);
+}
+.para{
+    position:absolute;
+    top:30%;
+    left:5%;
+    font-size:40px;
+    font-weight:500;
+    line-height:50px;
+}
+.def{
+    position:absolute;
+    top:50%;
+    left:5.5%;
+    letter-spacing:1px;
+    word-spacing:2px;
+    font-size:18px;
+    font-weight:100;
+}
+.btn1{
+    border:none;
+    outline:none;
+    background-color:rgb(225, 31, 31);
+    color:white;
+    position:absolute;
+    top:70%;
+    left:5%;
+    border-radius:20px;
+    padding:6px 20px;
+}
+.btn2{
+    border:none;
+    outline:none;
+    background-color:silver;
+    color:white;
+    position:absolute;
+    top:70%;
+    left:19%;
+    border-radius:20px;
+    padding:6px 20px;
+}
+.sample{
+    width:470px;
+    position:absolute;
+    top:18%;
+    left:40%;
+    border-radius:100%;
+}
+.mid{
+    position:absolute;
+    left:43%;
+    top:110%;
+    color:black;
+    font-size:22px;
+    letter-spacing:1px;
+}
+.mid span{
+    font-size:50px;
+    font-weight:bold;
+    letter-spacing:1px;
+}
+.mid1{
+    position:absolute;
+    top:135%;
+    left:7%;
+    height:50vh;
+    width:40vh;
+    border:1px solid black;
+    background:transparent;
+    backdrop-filter: blur(50px);
+    padding-top:34vh;
+    padding-left:5vh;
+    color:black;
+    font-size:16px;
+    letter-spacing:1px;
+    border-radius:20%;
+    border:none;
+}
+.mid1 span{
+    padding-bottom:5px;
+    font-weight:bold;
+    font-size:22px;
+    letter-spacing:1px;
+}
+.mid1 .dollar{
+    position:absolute;
+    top:91%;
+    left:13%;
+    color:black;
+    font-size:16px;
+    font-weight:bold;
+    padding-top:1px;
+}
+.mid2{
+    position:absolute;
+    top:133%;
+    left:30%;
+    height:55vh;
+    width:45vh;
+    border:1px solid black;
+    backdrop-filter: blur(90px);
+    padding-top:36vh;
+    padding-left:4vh;
+    color:black;
+    font-size:16px;
+    letter-spacing:1px;
+    border-radius:20%;
+    border:none;
+}
+.mid2 span{
+    padding-bottom:5px;
+    font-weight:bold;
+    font-size:22px;
+    letter-spacing:1px;
+}
+.mid2 .dollar1{
+    position:absolute;
+    top:89%;
+    left:10%;
+    color:black;
+    font-size:16px;
+    font-weight:bold;
+    padding-top:1px;
+}
+.mid3{
+    position:absolute;
+    top:135%;
+    left:55%;
+    height:50vh;
+    width:40vh;
+    border:1px solid black;
+    background:transparent;
+    backdrop-filter: blur(50px);
+    padding-top:34vh;
+    padding-left:5vh;
+    color:black;
+    font-size:16px;
+    letter-spacing:1px;
+    border-radius:20%;
+    border:none;
+}
+.mid3 span{
+    padding-bottom:5px;
+    font-weight:bold;
+    font-size:22px;
+    letter-spacing:1px;
+}
+.mid3 .dollar2{
+    position:absolute;
+    top:91%;
+    left:13%;
+    color:black;
+    font-size:16px;
+    font-weight:bold;
+    padding-top:1px;
+}
+.mid4{
+    position:absolute;
+    top:133%;
+    left:77%;
+    height:55vh;
+    width:45vh;
+    border:1px solid black;
+    background:transparent;
+    backdrop-filter: blur(50px);
+    padding-top:36vh;
+    padding-left:4vh;
+    color:black;
+    font-size:16px;
+    letter-spacing:1px;
+    border-radius:20%;
+    border:none;
+}
+.mid4 span{
+    padding-bottom:5px;
+    font-weight:bold;
+    font-size:22px;
+    letter-spacing:1px;
+}
+.mid4 .dollar3{
+    position:absolute;
+    top:89%;
+    left:10%;
+    color:black;
+    font-size:16px;
+    font-weight:bold;
+    padding-top:1px;
+}
+.n1{
+    position:absolute;
+    top:129%;
+    left:9.5%;
+    border-radius:100%;
+    width:170px;
+    backdrop-filter: blur(20px);
+}
+.n2{
+    position:absolute;
+    top:129%;
+    left:34%;
+    border-radius:100%;
+    width:170px;
+    backdrop-filter: blur(20px);
+}
+.n3{
+    position:absolute;
+    top:129%;
+    left:57.5%;
+    border-radius:100%;
+    width:170px;
+    backdrop-filter: blur(20px);
+}
+.n4{
+    position:absolute;
+    top:129%;
+    left:80.5%;
+    border-radius:100%;
+    width:170px;
+    backdrop-filter: blur(20px);
+}
+.chips1{
+    position:absolute;
+    top:205%;
+    left:67%;
+    color:black;
+    font-size:40px;
+    font-weight:bold;
+    
+}
+.chips2{
+    position:absolute;
+    top:224%;
+    left:67%;
+    color:black;
+    font-size:20px;
+    letter-spacing: 1px;
+}
+.chips3{
+    position:absolute;
+    top:200%;
+    left:17%;
+    width:500px;
+    border-radius:50%;
+}
+.btm{
+    position:absolute;
+    top:265%;
+    left:48%;
+    color:black;
+    font-size:22px;
+    font-weight:600;
+}
+.btm1 ul{
+    text-align:right;
+    position:absolute;
+    top:278%;
+    right:5%;
+}
+.btm1 ul li{
+    display:inline-flex;
+    padding:0px 50px;
+    font-size:14px;
+    color:black;
+    font-size:18px;
+}
+.s1{
+    color:rgb(253, 253, 10);
+    position:absolute;
+    top:164%;
+    left:9.5%;
+}
+.s2{
+    color:rgb(253, 253, 10);
+    position:absolute;
+    top:164%;
+    left:32%;
+}
+.s3{
+    color:rgb(253, 253, 10);
+    position:absolute;
+    top:164%;
+    left:57.5%;
+}
+.s4{
+    color:rgb(253, 253, 10);
+    position:absolute;
+    top:164%;
+    left:79%;
+}
+.plus{
+    position:absolute;
+    top:180.5%;
+    left:21.5%;
+    color:red;
+    font-size:18px;
+}
+.plus1{
+    position:absolute;
+    top:182%;
+    left:47%;
+    color:red;
+    font-size:18px;
+}
+.plus2{
+    position:absolute;
+    top:180%;
+    left:69.5%;
+    color:red;
+    font-size:18px;
+}
+.plus3{
+    position:absolute;
+    top:181.5%;
+    left:93.5%;
+    color:red;
+    font-size:18px;
+}
+
+
+
